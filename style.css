@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.card-area-start{
+    background-color: aqua;
+    padding: 50px 0 60px 0;
+}
+.box{
+    border: 7px solid blue;
+    padding: 40px;
+    border-radius: 15px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 70px;
+}
+@media  screen and(max-width:1024px) {
+    .card{
+        grid-template-columns: repeat(5,1fr);
+    }
+    
+}
+@media screen and(max-width: 885){
+    .card{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+    
