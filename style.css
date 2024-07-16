@@ -14,7 +14,7 @@
 .box{
     border: 7px solid blue;
     padding: 40px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .card{
     display: grid;
